@@ -1,0 +1,10 @@
+[X-GNOME-Metatheme]
+Name=Candy
+Type=X-GNOME-Metatheme
+Comment=A Material Design-like flat theme
+Encoding=UTF-8
+GtkTheme=Candy
+MetacityTheme=Candy
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24
