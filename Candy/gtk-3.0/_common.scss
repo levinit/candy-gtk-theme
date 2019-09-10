@@ -1875,7 +1875,7 @@ switch {
   .view.content-view.check#{$s}:not(list) {
     -gtk-icon-shadow: $z-depth-1;
     -gtk-icon-source: -gtk-scaled(url("assets/checkbox#{$as}.png"),
-                                  url("assets/checkbox#{$as}@2.png"));
+                                  url("assets/checkbox#{$as}.png"));
     margin: 8px;
     background-color: transparent;
 
@@ -2124,7 +2124,7 @@ scale {
       &#{$s} {
         $_url: 'assets/slider#{$as}#{$asset_suffix}';
         background-image: -gtk-scaled(url('#{$_url}.png'),
-                          url('#{$_url}@2.png'));
+                          url('#{$_url}.png'));
       }
     }
 
@@ -2188,7 +2188,7 @@ scale {
             &#{$state} {
               $_scale_asset: 'assets/slider-#{$dir_infix}-#{$marks_infix}#{$state_infix}#{$suffix}';
 
-              background-image: -gtk-scaled(url('#{$_scale_asset}.png'), url('#{$_scale_asset}@2.png'));
+              background-image: -gtk-scaled(url('#{$_scale_asset}.png'), url('#{$_scale_asset}.png'));
             }
 
             @if $dir_class == 'horizontal' {
@@ -3175,7 +3175,7 @@ cursor-handle {
 
     $_url: 'assets/slider-horz-scale-has-marks-above#{$asset_suffix}';
     -gtk-icon-source: -gtk-scaled(url('#{$_url}.png'),
-                                  url('#{$_url}@2.png'));
+                                  url('#{$_url}.png'));
   }
 }
 
